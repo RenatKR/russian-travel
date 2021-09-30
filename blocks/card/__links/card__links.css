@@ -1,0 +1,17 @@
+.card__links {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  align-self: end;
+}
+
+@media (max-width: 630px) {
+  .card__links {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 320px) {
+  .card__links {
+    margin-left: 16px;
+  }
+}

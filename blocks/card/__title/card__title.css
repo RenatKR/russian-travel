@@ -1,0 +1,32 @@
+.card__title {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  color: #FFFFFF;
+  margin: 0;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: end;
+}
+
+@media (max-width: 768px) {
+  .card__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 630px) {
+  .card__title {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 320px) {
+  .card__title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin-left: 16px;
+  }
+}

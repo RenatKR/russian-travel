@@ -1,0 +1,10 @@
+.card__texts {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+@media (max-width: 320px) {
+  .card__texts {
+    margin: 0px 16px 0 16px;
+  }
+}
